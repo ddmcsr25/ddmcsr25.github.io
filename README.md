@@ -57,7 +57,5 @@ FRP bypass Pixel 6, Android 14 exploit, lock screen bypass, sideload OTA unlock,
 
 ---
 
-## 📬 About the Author
 
-**Derek Morris** is a security analyst and ethical hacker based in **Merced, California**, with a focus on real-world vulnerability discovery across mobile and system platforms.
 
