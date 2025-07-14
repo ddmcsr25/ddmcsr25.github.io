@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Android Pixel 6 FRP bypass vulnerability responsibly disclosed by Derek Morris. Reported to Google, rewarded, marked Won't Fix (Intended Behavior).">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A real-world Android 14 vulnerability that bypasses Google lock screen and Factory Reset Protection (FRP) on Pixel 6. Verified, rewarded, and documented by security researcher Derek Morris.">
   <meta name="google-site-verification" content="QCvLeTguRvgQLPtn2h5dg980ZCdAtoEZzvPUZdTKAzM" />
-  <meta name="author" content="Derek Morris">
-  <title>Android Pixel 6 FRP Bypass Vulnerability - Derek Morris</title>
+  <title>Android 14 FRP & Lock Screen Bypass on Pixel 6 | Security Report by Derek Morris</title>
+</head>
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -40,33 +41,25 @@
 </head>
 <body>
 
-  <h1>Android FRP Bypass Vulnerability on Pixel 6</h1>
-  <p><strong>Author:</strong> Derek Morris<br>
-  <strong>Reported to:</strong> Google Android Security Rewards Program<br>
-  <strong>Date Reported:</strong> June 2024<br>
-  <strong>Status:</strong> Won’t Fix (Intended Behavior)<br>
-  <strong>Reward:</strong> Issued<br>
-  <strong>Build Fingerprint:</strong> <code>google/oriole/oriole:14/AP2A.240605.024/11860263:user/release-keys</code></p>
+<body>
+  <h1>Android Lock Screen & FRP Bypass Vulnerability on Pixel 6 (Android 14)</h1>
 
-  <div class="section">
-    <h2>Overview</h2>
-    <p>
-      This report documents a critical security flaw on a Google Pixel 6 running Android 14. The flaw allows a user to bypass Factory Reset Protection (FRP) — even with a locked bootloader and USB debugging disabled — by sideloading a beta OTA update via recovery mode.
-      The vulnerability was responsibly disclosed and rewarded by Google, but marked as “Won’t Fix (Intended Behavior).”
-    </p>
-  </div>
+  <p><strong>Author:</strong> Derek Morris &nbsp; | &nbsp; <strong>Reported to Google:</strong> June 2024 &nbsp; | &nbsp; <strong>Status:</strong> Rewarded – Marked as Won’t Fix (Intended Behavior)</p>
 
-  <div class="section">
-    <h2>Exploit Impact</h2>
-    <p>
-      With physical access to a locked device, an attacker can:
-      <ul>
-        <li>Bypass FRP and user PIN security</li>
-        <li>Re-enroll the device under a new Google account</li>
-        <li>Access developer options and unlock the bootloader</li>
-        <li>Install custom or factory ROMs</li>
-        <li>Use or resell the device without authorization</li>
-      </ul>
+  <p>This public disclosure details a working method to bypass both the Android 14 lock screen and Factory Reset Protection (FRP) on a locked Google Pixel 6. This exploit uses publicly available tools and an official OTA update to unlock the device without knowing the PIN or linked Google account. The device remains fully locked (bootloader, USB debugging off, FRP active), yet the attacker gains full access after a sideloaded update process.</p>
+
+  <p>Unlike most theoretical bypasses, this technique was tested on a fully updated Pixel 6 with June 2024 security patches. The vulnerability was reported to Google through the Android Security Rewards program, rewarded financially, but ultimately marked as intended behavior and not patched.</p>
+
+  <h2>Why This Matters</h2>
+  <p>This vulnerability allows attackers to:</p>
+  <ul>
+    <li>Bypass Android lock screen and Google account verification</li>
+    <li>Remove Factory Reset Protection without authentication</li>
+    <li>Unlock a secured Pixel 6 without PIN, pattern, or password</li>
+    <li>Enable developer mode, OEM unlock, and flash new ROMs</li>
+    <li>Resell or repurpose locked Android devices without traceability</li>
+  </ul>
+
     </p>
   </div>
 
