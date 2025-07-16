@@ -1,4 +1,4 @@
-# 🔐 Android 14 FRP & Lock Screen Bypass (Pixel 6)
+# Android 14 FRP & Lock Screen Bypass (Pixel 6)
 **Author**: Derek Morris  
 **Location**: Merced, California  
 **Role**: Security Analyst & Ethical Hacker  
@@ -8,24 +8,24 @@
 
 ---
 
-## 📌 Summary
+## Summary
 
 This research documents a **critical vulnerability** that allows attackers to **bypass Factory Reset Protection (FRP)** and the **user lock screen** on the **Pixel 6 running Android 14**, even when:
 
-- USB debugging is **disabled**
-- The bootloader is **locked**
-- FRP is **active**
+USB debugging is **disabled**
+The bootloader is **locked**
+FRP is **active**
 
 Using legitimate tools such as **Pixel Flasher** and **OTA sideloading**, this bypass was successfully tested and submitted to Google through the **Android Security Rewards (ASR)** program.
 
 ---
 
-## 📱 Affected Devices
+##  Affected Devices
 
-- **Device**: Pixel 6 (`codename: oriole`)
-- **OS**: Android 14  
-- **Build Fingerprint**: `google/oriole/oriole:14/AP2A.240605.024/11860263:user/release-keys`
-- **Exploit Method**: Physical access + ADB sideload with full OTA flashing
+Device**: Pixel 6 (`codename: oriole`)
+OS: Android 14  
+Build Fingerprint**: `google/oriole/oriole:14/AP2A.240605.024/11860263:user/release-keys`
+Exploit Method**: Physical access + ADB sideload with full OTA flashing
 
 ---
 
@@ -33,11 +33,11 @@ Using legitimate tools such as **Pixel Flasher** and **OTA sideloading**, this b
 
 Attackers with physical access and basic knowledge of Android tools can:
 
-- Completely bypass FRP and the user-set PIN/password
-- Install any firmware or custom ROM
-- Access all user data
-- Unlock the bootloader without authorization
-- Enroll the device into the Android Beta Program for persistent access
+Completely bypass FRP and the user-set PIN/password
+Install any firmware or custom ROM
+Access all user data
+Unlock the bootloader without authorization
+Enroll the device into the Android Beta Program for persistent access
 
 ---
 
@@ -49,16 +49,16 @@ Attackers with physical access and basic knowledge of Android tools can:
 4. Flash the device via sideload using Pixel Flasher.
 5. Bypass FRP + lock screen, and gain full access.
 
-➡️ **Full step-by-step technical breakdown** is available on the blog:  
-👉 [Read the Blog Post](https://frp-bypass-derek.blogspot.com/2025/07/bypassing-frp-and-lock-screen-on-pixel.html)
+Full step-by-step technical breakdown** is available on the blog:  
+[Read the Blog Post](https://frp-bypass-derek.blogspot.com/2025/07/bypassing-frp-and-lock-screen-on-pixel.html)
 
 ---
 
 ## 🏆 Disclosure & Recognition
 
-- **Reported to**: Google Android Security Team  
-- **Issue Tracker**: [FRP bypass vulnerability #352333773 (Google)](https://issuetracker.google.com/issues/352333773)
-- **Rewarded via ASR**: ✅ (Proof on file – see attached PDF)
+Reported to**: Google Android Security Team  
+Issue Tracker**: [FRP bypass vulnerability #352333773 (Google)](https://issuetracker.google.com/issues/352333773)
+Rewarded via ASR**: ✅ (Proof on file – see attached PDF)
 
 ---
 
@@ -72,12 +72,12 @@ This information is shared **for educational purposes only** and with responsibl
 
 If you believe security researchers deserve acknowledgment for responsible disclosure:
 
-- ⭐ Star this repo
-- 🔁 Share the blog post
-- 🗣️ Use hashtag `#FRPbypassPixel6`
+Star this repo
+Share the blog post
+Use hashtag `#FRPbypassPixel6`
 
 ---
 
 ## 🔗 Related
 
-- [Bug Hunters - Android & Google Devices VRP Rules](https://bughunters.google.com/about/rules/6171833274204160/android-and-google-devices-security-reward-program-rules)
+[Bug Hunters - Android & Google Devices VRP Rules](https://bughunters.google.com/about/rules/6171833274204160/android-and-google-devices-security-reward-program-rules)
