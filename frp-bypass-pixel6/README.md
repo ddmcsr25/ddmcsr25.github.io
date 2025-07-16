@@ -20,7 +20,7 @@ Using legitimate tools such as **Pixel Flasher** and **OTA sideloading**, this b
 
 ---
 
-##  Affected Devices
+Affected Devices
 
 Device**: Pixel 6 (`codename: oriole`)
 OS: Android 14  
@@ -29,7 +29,7 @@ Exploit Method**: Physical access + ADB sideload with full OTA flashing
 
 ---
 
-## 💥 Impact
+Impact
 
 Attackers with physical access and basic knowledge of Android tools can:
 
@@ -41,7 +41,7 @@ Enroll the device into the Android Beta Program for persistent access
 
 ---
 
-## 🧪 Exploit Steps (Abbreviated)
+Exploit Steps (Abbreviated)
 
 1. Boot the Pixel 6 into recovery.
 2. Enable “Apply update from ADB.”
@@ -54,21 +54,21 @@ Full step-by-step technical breakdown** is available on the blog:
 
 ---
 
-## 🏆 Disclosure & Recognition
+Disclosure & Recognition
 
 Reported to**: Google Android Security Team  
 Issue Tracker**: [FRP bypass vulnerability #352333773 (Google)](https://issuetracker.google.com/issues/352333773)
-Rewarded via ASR**: ✅ (Proof on file – see attached PDF)
+Rewarded via ASR**:  (Proof on file – see attached PDF)
 
 ---
 
-## ⚠️ Disclaimer
+Disclaimer
 
 This information is shared **for educational purposes only** and with responsible disclosure intent. Do not use this exploit on devices you do not own or have explicit authorization to test.
 
 ---
 
-## 📣 Help Recognize Ethical Research
+Help Recognize Ethical Research
 
 If you believe security researchers deserve acknowledgment for responsible disclosure:
 
@@ -78,6 +78,6 @@ Use hashtag `#FRPbypassPixel6`
 
 ---
 
-## 🔗 Related
+Related
 
 [Bug Hunters - Android & Google Devices VRP Rules](https://bughunters.google.com/about/rules/6171833274204160/android-and-google-devices-security-reward-program-rules)
