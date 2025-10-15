@@ -1,46 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta name="description" content="Derek Morris reports a responsible disclosure of a Pixel 6 FRP lock bypass. Summary, timeline, impact, and mitigation (no exploit code)." />
 
-  <meta name="keywords" content="FRP bypass Pixel 6, Android 14 exploit, lock screen bypass, Factory Reset Protection vulnerability, Android sideload bypass, Google account bypass Pixel, Pixel Flasher exploit, ethical hacking Android, Derek Morris security disclosure">
-  <meta name="author" content="Derek Morris">
   <title>Pixel 6 FRP Bypass — Responsible Disclosure & Timeline — Derek Morris</title>
+  <meta name="description" content="Derek Morris — responsible disclosure summary of a Pixel 6 FRP and lock screen bypass (Android 14). Timeline, impact and mitigation. Exploit steps withheld for safety." />
+  <meta name="keywords" content="FRP bypass Pixel 6, Android 14 vulnerability, lock screen bypass, Factory Reset Protection, security disclosure, Derek Morris" />
+  <meta name="author" content="Derek Morris" />
+  <link rel="canonical" href="https://ddmcsr25.github.io" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TechArticle",
-    "headline": "Pixel 6 Android 14 FRP & Lock Screen Bypass",
+    "@type": "Article",
+    "headline": "Pixel 6 FRP Bypass — Responsible Disclosure & Timeline — Derek Morris",
+    "description": "Derek Morris — responsible disclosure summary of a Pixel 6 FRP and lock screen bypass (Android 14). Timeline, impact and mitigation. Exploit steps withheld for safety.",
     "author": {
       "@type": "Person",
-      "name": "Derek Morris"
+      "name": "Derek Morris",
+      "url": "https://github.com/ddmcsr25"
     },
-    "datePublished": "2024-07-10",
-    "publisher": {
-      "@type": "Organization",
-      "name": "ddmcsr25.github.io",
-      "url": "https://ddmcsr25.github.io"
-    },
-    "description": "Critical Android 14 FRP and lock screen bypass vulnerability discovered and responsibly disclosed by Derek Morris. Includes full steps, proof, and impact analysis.",
-    "url": "https://ddmcsr25.github.io/frp-bypass-pixel6/",
-    "keywords": "FRP bypass Pixel 6, Android 14 security vulnerability, lock screen bypass, Android ethical hacking, Derek Morris"
+    "datePublished": "2024-07-15",
+    "dateModified": "2025-10-14",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://ddmcsr25.github.io"
+    }
   }
   </script>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; color: #333; background-color: #f9f9f9; }
-    h1, h2, h3 { color: #1a1a1a; }
-    a { color: #1a0dab; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    code { background: #eee; padding: 2px 4px; border-radius: 4px; }
-    .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    .footer { font-size: 0.9em; margin-top: 40px; color: #666; }
-  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Derek Morris",
+      "url": "https://ddmcsr25.github.io",
+      "sameAs": [
+        "https://github.com/ddmcsr25",
+        "https://www.linkedin.com/in/derek-morris"
+      ]
+    }
+  }
+  </script>
 </head>
-<body>
-  <div class="container">
+
    <h1>Pixel 6 FRP Bypass — Reported by Derek Morris</h1>
 
     <p><strong>Author:</strong> Derek Morris<br>
