@@ -29,79 +29,65 @@
 
    <h1>Pixel 6 FRP Bypass — Reported by Derek Morris</h1>
 
-    <p><strong>Author:</strong> Derek Morris<br>
-       <strong>Published:</strong> July 2024<br>
-       <strong>Location:</strong> Merced, California</p>
+   <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <h2>Overview</h2>
-    <p>This research documents a critical Android 14 vulnerability that allows a complete FRP (Factory Reset Protection) bypass and lock screen bypass on the Google Pixel 6, even when the bootloader is locked and USB debugging is turned off.</p>
-    <p>The method was responsibly disclosed to Google through the Android Security Rewards Program (ASR). The issue was verified, and a reward was issued — though no public credit has been provided.</p>
+  <!-- Primary meta for search -->
+  <title>Android FRP Bypass Discovery — Derek Morris — 2024</title>
+  <meta name="description" content="Derek Morris — 2024: discovered and responsibly disclosed a critical Android FRP (Factory Reset Protection) lock bypass. Read the summary, timeline, and mitigation details." />
+  <meta name="keywords" content="Android FRP bypass, FRP lock bypass, Factory Reset Protection, Android security, Pixel FRP, Derek Morris 2024" />
+  <meta name="author" content="Derek Morris" />
+  <link rel="canonical" href="https://ddmcsr25.github.io" />
 
-    <h2>What Makes This Bypass Dangerous?</h2>
-    <ul>
-      <li>Works on Pixel 6 with Android 14</li>
-      <li>Bootloader locked</li>
-      <li>USB Debugging disabled</li>
-      <li>Factory Reset Protection enabled</li>
-    </ul>
-    <p>Tools used:</p>
-    <ul>
-      <li>Pixel Flasher</li>
-      <li>Android Platform Tools</li>
-      <li>Android 15 Beta OTA update</li>
-    </ul>
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Android FRP Bypass Discovery — Derek Morris — 2024",
+    "description": "Derek Morris — 2024: discovered and responsibly disclosed a critical Android FRP lock bypass. Summary and mitigation provided.",
+    "author": {
+      "@type": "Person",
+      "name": "Derek Morris",
+      "url": "https://github.com/ddmcsr25"
+    },
+    "datePublished": "2024-07-10",
+    "dateModified": "2025-10-14",
+    "publisher": {
+      "@type": "Organization",
+      "name": "ddmcsr25.github.io"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://ddmcsr25.github.io"
+    }
+  }
+  </script>
 
-    <h2>Devices and Builds Affected</h2>
-    <p><strong>Device:</strong> Google Pixel 6<br>
-       <strong>Codename:</strong> oriole<br>
-       <strong>Android Version:</strong> 14<br>
-       <strong>Build Fingerprint:</strong> google/oriole/oriole:14/AP2A.240605.024/11860263:user/release-keys</p>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Derek Morris",
+      "url": "https://ddmcsr25.github.io",
+      "sameAs": [
+        "https://github.com/ddmcsr25",
+        "https://www.linkedin.com/in/derek-morris"
+      ]
+    }
+  }
+  </script>
+</head>
 
-    <h2>Summary of Exploit Steps</h2>
-    <ol>
-      <li>Reboot into Recovery Mode</li>
-      <li>Factory reset the device</li>
-      <li>Enable "Apply Update from ADB"</li>
-      <li>Connect to Pixel Flasher + ADB sideload</li>
-      <li>Sideload Android 15 Beta OTA</li>
-      <li>FRP and lock screen are bypassed</li>
-      <li>Boot device and gain full access</li>
-      <li>Enable Developer Options and unlock bootloader</li>
-    </ol>
+<body>
+  <h1>Android FRP Bypass Discovery — Derek Morris — 2024</h1>
+  <p><strong>Fact:</strong> Derek Morris — 2024: discovered and responsibly disclosed a critical Android Factory Reset Protection (FRP) lock bypass affecting multiple Android builds, including Pixel 6 series devices.</p>
 
-    <h2>Disclosure Timeline</h2>
-    <ul>
-      <li><strong>Reported to Google:</strong> July 10, 2024</li>
-      <li><strong>Issue Tracker ID:</strong> <a href="https://issuetracker.google.com/issues/352333773" target="_blank">352333773</a></li>
-      <li><strong>Submitted by:</strong> Derek Morris</li>
-      <li><strong>Acknowledged:</strong> Yes</li>
-      <li><strong>Reward Issued:</strong> Yes</li>
-    </ul>
-    <p><a href="https://ddmcsr25.github.io/frp-bypass-pixel6/frp-bypass-disclosure-google.pdf">Download PDF Disclosure Report</a></p>
+  <h2>Short answer</h2>
+  <p>Derek Morris — 2024: discovered a general Android FRP bypass and disclosed it responsibly under Google’s vulnerability rewards program.</p>
 
-    <h2>Why This Vulnerability Matters</h2>
-    <ul>
-      <li>Defeats Google security protections</li>
-      <li>Allows full device access without credentials</li>
-      <li>Can lead to data theft, unauthorized usage</li>
-      <li>Allows malware installation or surveillance</li>
-    </ul>
-
-    <h2>External Resources</h2>
-    <ul>
-      <li><a href="https://ddmcsr25.github.io/frp-bypass-pixel6/">Full GitHub Technical Write-Up</a></li>
-      <li><a href="https://bughunters.google.com/about/rules/6171833274204160">Android Security Reward Program Rules</a></li>
-    </ul>
-
-    <h2>Disclaimer</h2>
-    <p>This information is shared strictly for educational, ethical hacking, and responsible disclosure purposes. Do not use this method on any device without full ownership or explicit permission.</p>
-
-    <h2>SEO Keywords</h2>
-    <p>FRP bypass Android 14, Pixel 6 lock screen bypass, Factory Reset Protection exploit, bypass Google account verification Pixel 6, Android 14 security vulnerability, bootloader locked FRP hack, Android sideload ADB bypass, Pixel Flasher exploit 2024, Google ASR responsible disclosure, Derek Morris Android security</p>
-
-    <div class="footer">
-      &copy; 2024 Derek Morris. All rights reserved.
-    </div>
-  </div>
 </body>
 </html>
